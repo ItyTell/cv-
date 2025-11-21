@@ -1,0 +1,157 @@
+
+\documentclass[10pt, letterpaper]{article}
+
+% Packages:
+\input{packages}
+% Settings:
+\input{settings}
+
+\begin{document}
+    \newsavebox\ANDbox
+    \sbox\ANDbox{$|$}
+
+    \begin{header}
+        \fontsize{25 pt}{25 pt}\selectfont Mycola Kolomiiets
+
+        \vspace{5 pt}
+
+        \normalsize
+        \mbox{Kyiv, Ukraine}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{mailto:nickkolomietsdooor@gmail.com}{nickkolomietsdooor@gmail.com}}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{tel:+380 672 570 278}{+380 672 570 278}}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{https://www.linkedin.com/in/mycola-kolomiiets-5350961b0/}{linkedin}}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{https://github.com/ItyTell}{github}}%
+    \end{header}
+
+    \vspace{5 pt - 0.3 cm}
+
+    \section{Education}
+        
+        \begin{twocolentry}{
+            Sept 2024 – June 2026
+        }
+            \textbf{Taras Shevchenko National University of Kyiv}, Master's degree\\
+            Faculty of Computer Science and Cybernetics, Dept. of Data Science and AI\\
+            \textit{Focus: Computer Vision \& Advanced Machine Learning}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+
+        \begin{twocolentry}{
+            Sept 2020 – June 2024
+        }
+            \textbf{Taras Shevchenko National University of Kyiv}, Bachelor's degree\\
+            Faculty of Computer Science and Cybernetics, Dept. of Computational Mathematics
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item GPA: 89/100. Strong foundation in Statistics, Probability Theory, Numerical Methods.
+            \end{highlights}
+        \end{onecolentry}
+
+    \section{Skills}
+
+        \begin{onecolentry}
+            \begin{highlightsforbulletentries}
+            \item \textbf{Core CV \& ML:} OpenCV, PyTorch, TensorFlow/Keras, YOLO, CNNs, Object Tracking, RL.
+            \item \textbf{Languages:} Python (5+ years), SQL, Bash.
+            \item \textbf{Data Stack:} NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn.
+            \item \textbf{DevOps \& Tools:} Git, Docker, Linux (WSL/Ubuntu), Jupyter.
+            \item \textbf{Math:} Linear Algebra, Calculus, Optimization Methods, Statistics.
+            \end{highlightsforbulletentries}
+        \end{onecolentry}
+
+    \section{Key Computer Vision Projects}
+        
+        \begin{onecolentry}
+            \textbf{Automated Volleyball Score Tracking System}
+            \begin{highlights}
+                \item Developed a computer vision pipeline to track game state in real-time video footage.
+                \item Implemented object detection algorithms to track the ball and players' positions relative to court boundaries.
+                \item Designed logic to automatically update the score based on ball trajectory and landing coordinates.
+            \end{highlights}
+        \end{onecolentry}
+
+        \vspace{0.2 cm}
+
+        \begin{onecolentry}
+            \textbf{Visual Reinforcement Learning Agent (Atari Games)}
+            \begin{highlights}
+                \item Built a Deep Q-Network (DQN) agent capable of playing Atari games by processing raw pixel input.
+                \item Implemented CNN-based feature extraction and frame preprocessing pipelines (grayscale conversion, resizing, frame stacking) to optimize learning.
+                \item Utilized Gymnasium environment and PyTorch to train the agent to achieve autonomous gameplay.
+            \end{highlights}
+        \end{onecolentry}
+
+    \section{Experience}
+
+        \begin{twocolentry}{
+            Sept 2024 – Present
+        }
+            \textbf{Data Scientist / ML Engineer}, Corezoid
+        \end{twocolentry}
+        
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Developing and deploying custom ML models to optimize specific business processes within the automation platform.
+                \item Integrating GenAI APIs (OpenAI, Anthropic) for automated text processing and intelligent decision-making workflows.
+                \item Monitoring model performance and analyzing user behavior metrics to guide product optimization.
+            \end{highlights}
+        \end{onecolentry}
+        
+        \vspace{0.10 cm}
+
+        \begin{twocolentry}{
+            Aug 2023 – Oct 2023
+        }
+            \textbf{Research Fellow}, IRIS-HEP (Princeton University / CERN)
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Collaborated with international specialists on software and data science projects related to High Energy Physics.
+                \item Setup reproducible research environments using Docker and Python for complex data analysis tasks.
+            \end{highlights}
+        \end{onecolentry}
+
+        \vspace{0.10 cm}
+
+        \begin{twocolentry}{
+            May 2024 – Sept 2024
+        }
+            \textbf{Data Analyst}, \%L21UA
+        \end{twocolentry}
+        
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Built data pipelines and performed SQL-based data extraction to ensure data quality for reporting.
+                \item Automated reporting dashboards to streamline decision-making processes.
+            \end{highlights}
+        \end{onecolentry}
+
+    \section{Languages}
+        \begin{onecolentry}
+            \begin{highlightsforbulletentries}
+            \item \textbf{English:} B2 (Upper-Intermediate) – extensive experience with technical documentation and academic content.
+            \item \textbf{Ukrainian:} Native.
+            \end{highlightsforbulletentries}
+        \end{onecolentry}
+
+\end{document}
